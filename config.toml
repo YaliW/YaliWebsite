@@ -1,0 +1,109 @@
+baseurl = "https://yaliw.github.io/"
+languageCode = "en-us"
+title = "Yali Wang"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Yali Wang"
+	description = "Personal Website"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Yali Wang Website"
+
+		[params.navigation.links]
+			about     = "About me"
+			services  = ""
+			portfolio = "Projects"
+			contact   = "Contact me"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Yali Wang"
+		# subtitle   = "[Lorem](//google.com) ipsum"
+		subtitle = "FRONT END | FULL STACK ENGINEER <br/> [Linkedin](//www.linkedin.com/in/yali-wang-752b31b7/) &nbsp; &nbsp; [Github](//github.com/YaliW) &nbsp; &nbsp; [Resume](//view.publitas.com/a0768868-045e-4794-b405-9f4d9addab2e/resume_yaliwang/)"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "About me"
+		description = "Full Stack Software Engineer with a solid foundation in computer science, and with strong competencies in data structures, algorithms, software design, databases, networking and user interface. Real-world experience building user-facing interfaces to solve enterprise business problems. Self-taught programmer via online courses and independent projects in languages such as Java, JavaScript, PHP, Python and C, with ability to quickly learn others. Working knowledge of scalable computer architectures, databases, and web applications."
+		buttonText  = "Get started!"
+
+
+	# Service section
+	# [params.services]
+	# 	headline = "At your service"
+
+    #     [[params.services.list]]
+    #         icon = "fa-diamond"
+    #         title = "Sturdy Templates"
+    #         description = "Our templates are updated regularly so they don't break."
+
+    #     [[params.services.list]]
+	# 		icon = "fa-paper-plane"
+	# 		title = "Ready to Ship"
+	# 		description = "You can use this theme as is, or you can make changes!"
+
+	# 	[[params.services.list]]
+    #         icon = "fa-newspaper-o"
+    #         title = "Up to Date"
+    #         description = "We update dependencies to keep things fresh."
+
+    #     [[params.services.list]]
+    #         icon = "fa-heart"
+    #         title = "Made with Love"
+    #         description = "You have to make your websites with love these days!"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	# [params.aside]
+	# 	headline = "Get the Creative Theme for Hugo"
+
+	# 	[params.aside.button]
+	# 		text = "Download now"
+	# 		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "I look forward to contributing my skills and experiences to your Software Engineer position. I hope to have the opportunity to speak with you further about how I can be an asset to your team."
+		phone = "347-981-3502"
+		email = "yw1976@nyu.edu"
+	
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
